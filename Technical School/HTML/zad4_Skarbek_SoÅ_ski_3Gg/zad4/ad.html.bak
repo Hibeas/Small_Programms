@@ -1,0 +1,10 @@
+<html>
+	<head>
+		<script type="text/javascript">
+		function okno_zamknij_skarbek1() {window.close()}
+		</script>
+	</head>
+	<body>
+	<img src="obraz1.gif" /><input type="button" value="zamknij okno" onclick="okno_zamknij_skarbek1()"/>
+	</body>
+	</html>

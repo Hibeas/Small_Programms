@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Najlepsze książki fantasy</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+<style>
+	h1 {
+	font-family: 'Great Vibes', cursive;
+	font-size:60px;
+	}
+	#container-left{
+		width:750px;
+		height:175px;
+		background-color:green;
+		}
+	#container-right{
+		float:right;
+		width:750px;
+		height:175px;
+		background-color:green;
+		}
+        
+        img{
+        float: left;
+        width:"100";
+        height:"150";
+        transform: rotate(30deg);
+     	}
+</style>
+
+</head>
+<body>
+
+<h1><center>Pięć najlepszych książek fantasy</center></h1>
+<div id="container-left"> 
+<img src="https://bigimg.taniaksiazka.pl/images/popups/123/68007901377KS.jpg" alt="Witcher" width="100" height="150">
+<p>&nbsp;&nbsp;&nbsp;&nbsp;1. Ostatnie życzenie. Wiedźmin.</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pozycja, która przedstawia początki historii słynnego Geralta z Rivii. Sięgnij po tę lekturę i &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;zanurz się w świecie, pełnym niebezpiecznych stworzeń, nierzadko napadających na ludzkie &nbsp;&nbsp;&nbsp;&nbsp;osady.
+</div>
+<br><br>
+<div id="container-right">
+<img src="https://bigimg.taniaksiazka.pl/images/popups/0A8/9788328721081.jpg" alt="Królestwo Nikczemnych" width="100" height="150">
+<p>&nbsp;&nbsp;&nbsp;&nbsp;2. Królestwo Nikczemnych</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Babka była sycylijską wiedźmą. Wnuczka, by pomścić śmierć siostry, jest gotowa na pakt z &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;samym diabłem
+</div>
+<br><br>
+<div id="container-left">
+<img src="https://cf-taniaksiazka.statiki.pl/images/large/E4D/9788328720220.jpg" alt="Blood and Ash" width="100" height="150">
+<p>&nbsp;&nbsp;&nbsp;&nbsp;3. Krew i popiół</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Krew i popiół" to początek zachwycającej serii napisanej przez Jennifer Lynn Armentrout. Czy &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;życie szczęśliwie zaskoczy bohaterów? Z jak dużym niebezpieczeństwem przyjdzie im się &nbsp;&nbsp;&nbsp;&nbsp;zmierzyć?
+</div>
+<br><br>
+<div id="container-right">
+<img src="https://bigimg.taniaksiazka.pl/images/popups/12C/9788328722941.jpg" alt="Nowy wspaniały świat" width="100" height="150">
+<p>&nbsp;&nbsp;&nbsp;&nbsp;4. Nowy wspaniały świat</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Nowy wspaniały świat" angielskiego pisarza Aldousa Huxleya to powieść okrzyknięta &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;antyutopią. Niejednokrotnie budząca wiele kontrowersji.
+</div>
+<br><br>
+<div id="container-left">
+<img src="https://bigimg.taniaksiazka.pl/images/popups/A86/9788367054584.jpg" alt="Mroczna Krypta" width="100" height="150">
+<p>&nbsp;&nbsp;&nbsp;&nbsp;5. Mroczna krypta</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Mroczna krypta" to niesamowita powieść fantasy Victorii Schwab. Tym razem pisarka &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;przenosi czytelnika do niezwykłego uniwersum.
+</body>
+</html>

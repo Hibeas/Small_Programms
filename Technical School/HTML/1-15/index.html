@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<title>Przykład nr tutaj wpisz odpowiedni nume</title>
+		<script language="JavaScript">
+		function WinOpen_skarbek() {window.open("main.html","okienko","toolbar=no,directories=no,menubar=no,height=300,width=800,top=100,left=600");}
+		function WinOpen_skarbek1() {window.open.new("obraz1.html","okienko","toolbar=no,directories=no,menubar=no,height=100,width=200,top=200,left=200");}
+		function WinOpen_skarbek2() {window.open.new("obraz2.html","okienko","toolbar=no,directories=no,menubar=no,height=100,width=200,top=200,left=200");}
+		function WinOpen_skarbek3() {window.open("obraz3.html","okienko","toolbar=no,directories=no,menubar=no,height=100,width=200,top=200,left=200");}
+		function WinOpen_skarbek4() {window.open("obraz4.html","okienko","toolbar=no,directories=no,menubar=no,height=100,width=200,top=200,left=200");}
+		function Program() {var liczba1=prompt("liczba1=","");
+var liczba2=prompt("liczba2=","");
+var suma;
+ var a=parseFloat(liczba1);
+ var b=parseFloat(liczba2);
+ suma=a+b;
+ document.write("suma="+a+" + "+b+" = "+suma+"<br>"); }
+ function show_confirm()
+ {
+ var r=confirm("Naciśnij klawisz");
+ if (r==true)
+ { document.write("Nacisnąłeś OK!"); }
+ else
+ { document.write("Nacisnąłeś Cancel!"); }
+ }
+  function show_prompt()
+ {
+ var name=prompt("Napisz imię","Imię Nazwisko");
+ if (name!=null && name!="")
+ {
+ document.write("Witaj " + name + "! jak się masz?");
+ }
+ }
+ function pit(){
+ var liczba1=prompt("liczba1=","");
+ liczba2=prompt("liczba1=","");
+ document.write("Wczytane liczby :      x1= " + liczba2 + " x2="+liczba2);
+ var wynik=liczba1^liczba2*3;
+ document.write(wynik);
+ 
+		</script>
+	</head>
+	<body>
+	<form>
+	<input type="button" name="przycisk" value="Nowa Strona" onclick="WinOpen_skarbek(' ')">
+	<input type="button" name="przycisk" value="Program" onclick="Program(' ')">
+	<input type="button" name="przycisk" value="confirm" onclick="show_confirm(' ')">
+	<input type="button" name="przycisk" value="prompt" onclick="show_prompt(' ')">
+	<input type="button" name="przycisk" value="Nowa Stron" onclick="pit(' ')">
+	
+<br><br>
+<input type="button" name="przycisk" value="Nowa Strona1" onclick="WinOpen_skarbek1(' ')">
+<input type="button" name="przycisk" value="Nowa Strona2" onclick="WinOpen_skarbek2(' ')">
+<input type="button" name="przycisk" value="Nowa Strona3" onclick="WinOpen_skarbek3(' ')">
+<input type="button" name="przycisk" value="Nowa Strona4" onclick="WinOpen_skarbek4(' ')">
+	
+	
+	</form>
+	</body>

@@ -1,0 +1,16 @@
+<html>
+	<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+	<style>
+		h1 {
+		font-family: 'Great Vibes', cursive;
+		font-size:60px;
+		}
+	</style>
+	</head>
+	<body>
+		<Center><h1>Koszyk : (0)</h1></center>
+	</body>
+</html>

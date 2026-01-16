@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Najlepsze horrory</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+<style>
+	h1 {
+	font-family: 'Great Vibes', cursive;
+	font-size:60px;
+	}
+	#container-left{
+		width:750px;
+		height:175px;
+		background-color:red;
+		}
+	#container-right{
+		float:right;
+		width:750px;
+		height:175px;
+		background-color:red;
+		}
+        
+        img{
+        float: left;
+        width:"100";
+        height:"150";
+        transform: rotate(30deg);
+     	}
+</style>
+
+</head>
+<body>
+
+<h1><center>Pięć najlepszych horrorów</center></h1>
+<div id="container-left"> 
+<img src="https://najlepsze-ksiazki.pl/wp-content/uploads/2021/03/ksiazki-horrory-1.jpg" alt="Później" width="100" height="150">
+<p>&nbsp;&nbsp;&nbsp;&nbsp;1. Później</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tylko umarli nie mają sekretów. Jamie od najmłodszych lat widuje zmarłych. Jamie może &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;zobaczyć to, czego nikt inny nie widzi, i poznać sekrety, których nikt inny nie zna. Ale cena, jaką &nbsp;&nbsp;&nbsp;musi płacić za swoje nadnaturalne zdolności, jest bardzo wysoka.
+</div>
+<br><br>
+<div id="container-right">
+<img src="https://najlepsze-ksiazki.pl/wp-content/uploads/2021/03/ksiazki-horrory-2.jpg" alt="Zew Cthulhu" width="100" height="150">
+<p>&nbsp;&nbsp;&nbsp;&nbsp;2. Zew Cthulhu</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;„Zew Cthulhu” to zbiór pięciu najbardziej znanych, najstraszniejszych opowiadań &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;niekwestionowanego mistrza opowieści niesamowitej – Howarda Phillipsa Lovecrafta. W &nbsp;&nbsp;&nbsp;skrzynce badacz znalazł dziwną płaskorzeźbę w glinie, bezładne zapiski i jakieś wycinki z gazet. &nbsp;Wszelkie zapiski tyczą się tajemniczego kultu Cthulhu
+</div>
+<br><br>
+<div id="container-left">
+<img src="https://najlepsze-ksiazki.pl/wp-content/uploads/2021/03/ksiazki-horrory-3.jpg" alt="Lśnienie" width="100" height="150">
+<p>&nbsp;&nbsp;&nbsp;&nbsp;3. Lśnienie</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To jeden z najlepszych współczesnych horrorów. Nastrój grozy i napięcia potęguje się w niej z &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;każdą minutą. Pięcioletni chłopiec Danny znalazł się z rodzicami w opustoszałym na zimie &nbsp;&nbsp;&nbsp;hotelu. Wrażliwe, obdarzone zdolnościami wizjonerskimi dziecko odbiera fluidy czające się w jego &nbsp;murach.
+</div>
+<br><br>
+<div id="container-right">
+<img src="https://najlepsze-ksiazki.pl/wp-content/uploads/2021/03/ksiazki-horrory-4.jpg" alt="Strażak" width="100" height="150">
+<p>&nbsp;&nbsp;&nbsp;&nbsp;4. Strażak</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nikt nie wie dokładnie, kiedy i jak to się zaczęło. Przez kraj przetacza się przerażająca plaga, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;która uderza w kolejne miasta: Boston, Detroit, Seattle. Lekarze nazywają to Draco Incendia &nbsp;&nbsp;&nbsp;Trychophyton. 
+</div>
+<br><br>
+<div id="container-left">
+<img src="https://najlepsze-ksiazki.pl/wp-content/uploads/2021/03/ksiazki-horrory-5.jpg" alt="Bastion" width="100" height="150">
+<p>&nbsp;&nbsp;&nbsp;&nbsp;5. Bastion</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Przerażająca wizja świata po zagładzie biologicznej. Najdłuższa i według powszechnych ocen &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;najlepsza powieść w dorobku Stephena Kinga – apokaliptyczny thriller mistrza grozy. &nbsp;&nbsp;&nbsp;&nbsp;Supernowoczesna broń biologiczna przynosi całkowitą zagładę.
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+<h1><b>Budowa stylu selektory<br></h1>
+Selektory są elementami arkusza CSS.<br></b>
+<center>
+<textarea rows="2" cols="55">
+selektor {cecha: wartość; cecha: wartość; …..;}
+</textarea></center>
+Każda reguła odnosi się do konkretnego elementu (znacznika) i składa się z dwóch części:
+<ul>
+	<li>selektora
+	<li>deklaracji.</ul>
+<b>Selektor </b>określa do jakich elementów ma zostać przypisane formatowanie. np. p h1<br>
+<b>Deklaracja</b> jest umieszczona w nawiasie klamrowym {...} i podaje to formatowanie. <br>
+Każda deklaracja składa się z:<br>
+<ul><li>przynajmniej z jednego zespołu <b>cecha</b> lub inaczej własność albo właściwość (ang. <br>
+property)
+<li><b>wartość</b> (ang. value), przy czym można podać dowolną liczbę, rozdzielając kolejne <br>
+znakiem średnika (;). <br>
+<u>Średnik na końcu deklaracji nie jest konieczny.<br></u><br>
+Każda grupa elementów (znaczników np. body> p> b>) ma określony zespół cech CSS, <br>
+które można jej przypisać. <br>
+Każda cecha ma ściśle wyszczególnioną listę wartości, które może przyjąć. <br>
+Na przykład: cecha text-align (wyrównanie tekstu) może być przypisana tylko i wyłącznie do <br>
+elementów blokowych, ponieważ podanie jej dla elementów wyświetlanych w linii nie <br>
+miałoby sensu. Z drugiej strony cecha ta może przyjmować tylko wartości takie jak: left, <br>
+right, center, justify. Przypisanie do niej np. wartości koloru nie miałoby sensu.<br><br>
+<u>Przykład1:<br></u><br>
+<i>p { color: red; }<br></i>
+<u>selektorem</u> jest znacznik p, <br>
+<u>deklaracja</u> ma postać { color: red }. <br>
+<u>cechą</u> jest color, <br>
+<u>wartością</u> red.<br><br>
+Przykład2:<br><br>
+<i>p b { color: red; background-color: yellow }<br></i>
+<u>Selektorem</u> jest zestawienie znaczników p b. <br><u>Deklaracja</u> zawiera dwa zespoły cecha-wartość.<br>
+<br><u>Uwaga:</u><br>
+W MSIE 8.0 i starszych jeden plik arkusza CSS może zawierać tylko 4095 selektorów, przy <br>
+czym w listach każdy selektor liczy się osobno - następne deklaracje zostaną pominięte! <br>
+W przypadku przekroczenia tej granicy, jedynym rozwiązaniem jest podział arkusza CSS na <br>
+kilka osobnych plików, ale nie więcej niż 31.<br>
+  </body>
+</html>
